@@ -1,0 +1,19 @@
+{
+  "name": "rojaobot",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@discordjs/opus": "discordjs/opus",
+    "discord.js": "^12.5.1",
+    "ffmpeg-static": "^4.2.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  }
+}
